@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
+/* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.main-content{
+  flex: 1;
+  padding: 30px;
+  background: #f7f8fc !important;
+
+}
+.dark {
+  background: #0f0f23;
+  color: white;
+  min-height: 100vh;
+}
+
+.dark .sidebar {
+  background: #1a1a40;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.dark .card,
+.dark .recent-card,
+.dark .settings-card,
+.dark .problem-card,
+.dark .goal-card,
+.dark .interview-card,
+.dark .stat-card,
+.dark .progress-box,
+.dark .activity-box {
+  background: #1a1a40;
+  color: white;
+  border: 1px solid #8b5cf6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dark input,
+.dark select,
+.dark textarea {
+  background: #23235b;
+  color: white;
+  border: 1px solid #8b5cf6;
+}
+
+.dark button {
+  background: #8b5cf6;
+  color: white;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark p,
+.dark span,
+.dark label {
+  color: white;
 }

@@ -1,0 +1,98 @@
+.main-content{
+  flex:1;
+  padding:30px;
+  overflow-y:auto ;
+}
+
+.subtitle{
+  color:gray;
+  margin-bottom:20px;
+}
+
+.stats-cards{
+  display:flex;
+  gap:20px;
+  flex-wrap: wrap;
+  margin-bottom:25px;
+}
+
+.stat-card{
+  flex:1;
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.stat-card h4{
+  color:#555;
+  margin-bottom:15px;
+}
+
+.stat-card h2{
+  font-size:40px;
+}
+
+.progress-box,
+.activity-box{
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  margin-top:20px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.progress{
+  width:100%;
+  height:12px;
+  background:#eee;
+  border-radius:20px;
+  margin:10px 0 20px;
+}
+
+.progress-fill{
+  height:100%;
+  border-radius:20px;
+}
+
+.solved{
+  width:60%;
+  background:linear-gradient(to right,#6366f1,#ec4899);
+}
+
+.goal{
+  width:0%;
+  background:#10b981;
+}
+
+.bars{
+  display:flex;
+  align-items:flex-end;
+  height:220px;
+  margin-top:20px;
+}
+
+.bar{
+  width:80px;
+  background:#4f46e5;
+  color:white;
+  text-align:center;
+  border-radius:10px 10px 0 0;
+  padding-top:10px;
+}
+.analytics-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.analytics-card{
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+.stat-card{
+  background: #1e3a5f;
+  color: white;
+}

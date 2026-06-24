@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
+import Settings from "./pages/Settings";
+import Dashboard from "./pages/Dashboard";
+import Problems from "./pages/Problems";
+import Goals from "./pages/Goals";
+import Interviews from "./pages/Interviews";
+import Analytics from "./pages/Analytics";
 function App() {
+  const theme =
+  localStorage.getItem("theme") || "light";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={theme}>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/problems" element={<Problems />} />
+        <Route path="/goals" element={<Goals />} />
+        <Route path="/interviews" element={<Interviews />} />
+        <Route path="/analytics" element={<Analytics />} />
+         <Route path="/settings" element={<Settings />} />
+      </Routes>
+    </BrowserRouter>
     </div>
   );
 }
-
 export default App;
