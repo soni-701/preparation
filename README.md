@@ -42,7 +42,8 @@ The goal of this project is to help students stay organized throughout their pla
 - Placement Company Tracker
 
 ---
-
+##  Live Demo
+https://preparation-green.vercel.app/
 ## 👨‍💻 Author
 
 **Soni Yadav**
