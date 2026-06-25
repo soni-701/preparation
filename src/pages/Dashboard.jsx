@@ -18,7 +18,6 @@ function Dashboard() {
   const interviews =
     JSON.parse(localStorage.getItem("interviews") || "[]");
 
-  const totalProblems = problems.length;
 
   const solvedProblems = problems.filter(
     (p) => p.status === "Solved"

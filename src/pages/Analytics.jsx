@@ -18,14 +18,6 @@ function Analytics() {
     p => p.status === "Solved"
   ).length;
 
-  const attempted = problems.filter(
-    p => p.status === "Attempted"
-  ).length;
-
-  const pending = problems.filter(
-    p => p.status === "Pending"
-  ).length;
-
   const completedGoals = goals.filter(
     g => g.status === "Done"
   ).length;
