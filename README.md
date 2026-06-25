@@ -42,6 +42,9 @@ The goal of this project is to help students stay organized throughout their pla
 - Placement Company Tracker
 
 ---
+##Project Preview 
+![Preparation Tracker]
+(dashboard.png.jpeg)
 ##  Live Demo
 https://preparation-green.vercel.app/
 ## 👨‍💻 Author
