@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState, useEffect } from "react";
 import Settings from "./pages/Settings";
 import Dashboard from "./pages/Dashboard";
 import Problems from "./pages/Problems";
